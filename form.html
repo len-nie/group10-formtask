@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <title>Registration Form</title>
+        
+    </head>
+<body>
+
+    
+    <form action="/action_page.php">
+       
+        <label for="fname">Name</label><br>
+        <input type="text" id="name" name="name" value="John"><br><br>
+       
+        <label for="text">Email</label><br>
+        <input type="text" id="email" name="email" value="johnsmail@example.com"><br><br>
+   
+        <label for="pwd">Password</label><br>
+        <input type="password" id="pwd" name="pwd" minlength="8" value="123456789" ><br><br>
+
+        <fieldset style="width:150px;">
+         <legend>Referral</legend>
+
+        <input type="radio" id="TV" name="Referral" value="TV">
+         <label for="TV">TV</label><br>
+         <input type="radio" id="Internet" name="Referral" value="Internet">
+         <label for="Internet">Internet</label><br>
+         <input type="radio" id="None" name="Referral" value="None" checked> 
+         <label for="None">None</label><br>
+        
+        </fieldset>
+
+         <input type="checkbox" id="" name="check" value="GFG" required>
+         <label for="checkbox">I accept the terms of service.</label><br><br> 
+
+         <input type="submit" value="Register">
+        
+       </form>
+
+    </body>
+
+</html>
+
